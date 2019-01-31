@@ -1,8 +1,6 @@
-n=str(input())
-L=["a","e","i","o","u","A","E","I","O","U"]
-if n.isnumeric():
-	print("invalid ")
-elif n in L:
+nk=input()
+Lk=["a","e","i","o","u","A","E","I","o","u"]
+if( nk in Lk):
 	print("vowels")
 else:
-	print("Consonant")
+	print("consonants")
