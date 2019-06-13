@@ -1,3 +1,3 @@
-a=str(input())
-b=a[::-1]
-print(b)
+sathish=str(input())
+dhoni=sk[::-1]
+print(dhoni)
