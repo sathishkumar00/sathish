@@ -6,5 +6,5 @@ for i in range(qat):
 for i in st:
   z=0
   for j in range(i[0]-1,i[1]):
-      z=z+t[j]
+      z=z+tat[j]
   print(z)    
