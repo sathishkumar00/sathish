@@ -6,7 +6,7 @@ for i1 in ak:
   if i1 not in c:
     c1.append(i1)
 for j1 in c:
-  for k1 in a1:
+  for k1 in ak:
     if(j1==k1):
       count=count+1
   if(count==1):
