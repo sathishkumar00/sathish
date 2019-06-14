@@ -1,21 +1,21 @@
-f=input()
-f=f.split(" ")
-g=f[0]
-k=f[1]
-a=list(g)
+sk=input()
+sk=sk.split(" ")
+g=sk[0]
+k=sk[1]
+sa=list(g)
 b=list(k)
 h=j=0
-d=a[0]
+d=sa[0]
 e=b[0]
-for i in range(0,len(a)):
-       if(a[i]==d and b[i]==e):
+for i in range(0,len(sa)):
+       if(sa[i]==d and b[i]==e):
              h=h+1
-       elif(a[i]!=d and b[i]==e):
+       elif(sa[i]!=d and b[i]==e):
              break
-       elif(a[i]==d and b[i]!=e):
+       elif(sa[i]==d and b[i]!=e):
              break
-       elif(a[i]!=d and b[i]!=e):
-             d=a[i]
+       elif(sa[i]!=d and b[i]!=e):
+             d=sa[i]
              e=b[i]
              h=h+1
        j=j+1
