@@ -1,3 +1,2 @@
-num3=int(input())
-while(num3>=1000):
-print(num3)
+num333=int(input())
+print(num333)
