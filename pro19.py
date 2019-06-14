@@ -9,6 +9,6 @@ fat=[]
 for i in gat:
     for j in i:
         f.append(j)
-f.sort()
+fat.sort()
 for i in fat:
     print(i,end=" ")
