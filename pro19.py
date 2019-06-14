@@ -3,12 +3,12 @@ gat=[]
 for i in range(rat):
     li=[]
     li=list(map(int,input().split()))
-    g.append(li)
+    gat.append(li)
  
 fat=[]   
 for i in gat:
     for j in i:
-        f.append(j)
+        fat.append(j)
 fat.sort()
 for i in fat:
     print(i,end=" ")
