@@ -1,5 +1,5 @@
 sat=input()
 if(sat>="a" and sat<="z")or(sat>="A" and sat<="Z"):
-	print("NO")
+	print("No")
 else:
-	print("YES")
+	print("Yes")
